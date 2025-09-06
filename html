@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Basketball Store - Search & Sort</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+    input[type="text"] {
+      padding: 8px;
+      width: 100%;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    button {
+      margin: 5px 5px 15px 0;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+    ul {
+      padding-left: 20px;
+      border: 1px solid #ddd;
+      min-height: 60px;
+      background: #fafafa;
+    }
+    li {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🏀 Basketball Store</h1>
+
+  <input type="text" id="searchInput" placeholder="Search products..." />
+
+  <button id="sortBtn">Sort Products A-Z</button>
+  <button id="resetBtn">Reset Products</button>
+
+  <ul id="productList">
+    <!-- Products will appear here -->
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
